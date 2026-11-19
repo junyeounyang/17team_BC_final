@@ -1,0 +1,121 @@
+======================================================================
+Behavior Cloning Training
+======================================================================
+data          : C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\data\demo_600.npz
+device        : cpu
+state_dim     : 48
+action_dim    : 2
+train samples : 216335
+val samples   : 53033
+output        : C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results\bc_600_s10
+tensorboard   : tensorboard --logdir "C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results"  → http://localhost:6006
+======================================================================
+Epoch   1/100 | train_loss=0.042363 | val_loss=0.030884
+Epoch   2/100 | train_loss=0.028168 | val_loss=0.026386
+Epoch   3/100 | train_loss=0.024234 | val_loss=0.025686
+Epoch   4/100 | train_loss=0.021969 | val_loss=0.023158
+Epoch   5/100 | train_loss=0.020424 | val_loss=0.021342
+Epoch   6/100 | train_loss=0.019269 | val_loss=0.019678
+Epoch   7/100 | train_loss=0.018259 | val_loss=0.019213
+Epoch   8/100 | train_loss=0.017447 | val_loss=0.019429
+Epoch   9/100 | train_loss=0.016755 | val_loss=0.018290
+Epoch  10/100 | train_loss=0.016136 | val_loss=0.019937
+Epoch  11/100 | train_loss=0.015766 | val_loss=0.017271
+Epoch  12/100 | train_loss=0.015231 | val_loss=0.017395
+Epoch  13/100 | train_loss=0.014826 | val_loss=0.017085
+Epoch  14/100 | train_loss=0.014454 | val_loss=0.017195
+Epoch  15/100 | train_loss=0.014159 | val_loss=0.016327
+Epoch  16/100 | train_loss=0.013816 | val_loss=0.019105
+Epoch  17/100 | train_loss=0.013560 | val_loss=0.015754
+Epoch  18/100 | train_loss=0.013320 | val_loss=0.015501
+Epoch  19/100 | train_loss=0.013112 | val_loss=0.015506
+Epoch  20/100 | train_loss=0.012825 | val_loss=0.015492
+Epoch  21/100 | train_loss=0.012617 | val_loss=0.015625
+Epoch  22/100 | train_loss=0.012437 | val_loss=0.015110
+Epoch  23/100 | train_loss=0.012249 | val_loss=0.014999
+Epoch  24/100 | train_loss=0.012067 | val_loss=0.015648
+Epoch  25/100 | train_loss=0.012003 | val_loss=0.014989
+Epoch  26/100 | train_loss=0.011731 | val_loss=0.014386
+Epoch  27/100 | train_loss=0.011605 | val_loss=0.015077
+Epoch  28/100 | train_loss=0.011454 | val_loss=0.014964
+Epoch  29/100 | train_loss=0.011351 | val_loss=0.014917
+Epoch  30/100 | train_loss=0.011181 | val_loss=0.014427
+Epoch  31/100 | train_loss=0.011084 | val_loss=0.014262
+Epoch  32/100 | train_loss=0.010939 | val_loss=0.014147
+Epoch  33/100 | train_loss=0.010841 | val_loss=0.014940
+Epoch  34/100 | train_loss=0.010693 | val_loss=0.014552
+Epoch  35/100 | train_loss=0.010615 | val_loss=0.013988
+Epoch  36/100 | train_loss=0.010492 | val_loss=0.013732
+Epoch  37/100 | train_loss=0.010480 | val_loss=0.014333
+Epoch  38/100 | train_loss=0.010342 | val_loss=0.013918
+Epoch  39/100 | train_loss=0.010241 | val_loss=0.014055
+Epoch  40/100 | train_loss=0.010116 | val_loss=0.013775
+Epoch  41/100 | train_loss=0.010069 | val_loss=0.014047
+Epoch  42/100 | train_loss=0.009892 | val_loss=0.013590
+Epoch  43/100 | train_loss=0.009906 | val_loss=0.013095
+Epoch  44/100 | train_loss=0.009817 | val_loss=0.014246
+Epoch  45/100 | train_loss=0.009782 | val_loss=0.015381
+Epoch  46/100 | train_loss=0.009729 | val_loss=0.013477
+Epoch  47/100 | train_loss=0.009540 | val_loss=0.016069
+Epoch  48/100 | train_loss=0.009485 | val_loss=0.013325
+Epoch  49/100 | train_loss=0.009433 | val_loss=0.014017
+Epoch  50/100 | train_loss=0.009459 | val_loss=0.013278
+Epoch  51/100 | train_loss=0.009295 | val_loss=0.012926
+Epoch  52/100 | train_loss=0.009271 | val_loss=0.013201
+Epoch  53/100 | train_loss=0.009143 | val_loss=0.012846
+Epoch  54/100 | train_loss=0.009153 | val_loss=0.013331
+Epoch  55/100 | train_loss=0.009053 | val_loss=0.012932
+Epoch  56/100 | train_loss=0.008985 | val_loss=0.013059
+Epoch  57/100 | train_loss=0.008946 | val_loss=0.014164
+Epoch  58/100 | train_loss=0.008885 | val_loss=0.013121
+Epoch  59/100 | train_loss=0.008856 | val_loss=0.012953
+Epoch  60/100 | train_loss=0.008746 | val_loss=0.012979
+Epoch  61/100 | train_loss=0.008753 | val_loss=0.013880
+Epoch  62/100 | train_loss=0.008697 | val_loss=0.012829
+Epoch  63/100 | train_loss=0.008562 | val_loss=0.013386
+Epoch  64/100 | train_loss=0.008611 | val_loss=0.012337
+Epoch  65/100 | train_loss=0.008528 | val_loss=0.012816
+Epoch  66/100 | train_loss=0.008422 | val_loss=0.012822
+Epoch  67/100 | train_loss=0.008437 | val_loss=0.013393
+Epoch  68/100 | train_loss=0.008434 | val_loss=0.012701
+Epoch  69/100 | train_loss=0.008308 | val_loss=0.012698
+Epoch  70/100 | train_loss=0.008323 | val_loss=0.012105
+Epoch  71/100 | train_loss=0.008231 | val_loss=0.012631
+Epoch  72/100 | train_loss=0.008214 | val_loss=0.013447
+Epoch  73/100 | train_loss=0.008177 | val_loss=0.012632
+Epoch  74/100 | train_loss=0.008070 | val_loss=0.012681
+Epoch  75/100 | train_loss=0.008104 | val_loss=0.012450
+Epoch  76/100 | train_loss=0.008090 | val_loss=0.013358
+Epoch  77/100 | train_loss=0.008030 | val_loss=0.013171
+Epoch  78/100 | train_loss=0.008041 | val_loss=0.012333
+Epoch  79/100 | train_loss=0.007914 | val_loss=0.012685
+Epoch  80/100 | train_loss=0.007917 | val_loss=0.013399
+Epoch  81/100 | train_loss=0.007969 | val_loss=0.012584
+Epoch  82/100 | train_loss=0.007834 | val_loss=0.012153
+Epoch  83/100 | train_loss=0.007748 | val_loss=0.012330
+Epoch  84/100 | train_loss=0.007797 | val_loss=0.012549
+Epoch  85/100 | train_loss=0.007769 | val_loss=0.012486
+Epoch  86/100 | train_loss=0.007750 | val_loss=0.012423
+Epoch  87/100 | train_loss=0.007698 | val_loss=0.012545
+Epoch  88/100 | train_loss=0.007626 | val_loss=0.012562
+Epoch  89/100 | train_loss=0.007590 | val_loss=0.012529
+Epoch  90/100 | train_loss=0.007650 | val_loss=0.011953
+Epoch  91/100 | train_loss=0.007526 | val_loss=0.012173
+Epoch  92/100 | train_loss=0.007528 | val_loss=0.012140
+Epoch  93/100 | train_loss=0.007558 | val_loss=0.012644
+Epoch  94/100 | train_loss=0.007566 | val_loss=0.012033
+Epoch  95/100 | train_loss=0.007461 | val_loss=0.011934
+Epoch  96/100 | train_loss=0.007487 | val_loss=0.011988
+Epoch  97/100 | train_loss=0.007403 | val_loss=0.012102
+Epoch  98/100 | train_loss=0.007372 | val_loss=0.013348
+Epoch  99/100 | train_loss=0.007478 | val_loss=0.011757
+Epoch 100/100 | train_loss=0.007311 | val_loss=0.012385
+======================================================================
+Training finished
+Best validation loss : 0.011757
+Best model           : C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results\bc_600_s10\model.pt
+Last model           : C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results\bc_600_s10\last_model.pt
+Training log         : C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results\bc_600_s10\training_log.csv
+Evaluation           : python test.py C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results\bc_600_s10\model.pt --algorithm bc --nogui
+TensorBoard          : tensorboard --logdir "C:\Users\KRX\Artificial-Intelligence-and-Control-for-Autonomous-Driving\results"  → http://localhost:6006
+======================================================================

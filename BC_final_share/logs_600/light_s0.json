@@ -1,0 +1,26 @@
+{
+ "episodes": 50,
+ "ends": {
+  "도착": 44,
+  "차와 충돌": 5,
+  "보행자와 충돌": 1
+ },
+ "events": {
+  "yield_violation": 2,
+  "red_light": 5,
+  "crosswalk_violation": 2
+ },
+ "where": {
+  "sz0_in": 5,
+  ":IWJ_0": 1
+ },
+ "clean": 37,
+ "lane_changes": 144,
+ "lane_unasked": 0,
+ "return": 15.435204983522315,
+ "length": 603.14,
+ "speed": 4.463050064276387,
+ "seconds": 3889.3093004226685,
+ "model": "C:\\Users\\KRX\\Artificial-Intelligence-and-Control-for-Autonomous-Driving\\results\\bc_600_s0\\model.pt",
+ "seed": 99
+}
